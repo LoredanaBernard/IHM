@@ -1,0 +1,33 @@
+.btnValid {
+	
+   	-fx-background-image: url("/img/tik.png");
+		-fx-background-size: 100% 100%;
+		-fx-background-color: Transparent;
+		
+	}
+	
+.btnAccueil {
+	-fx-background-image: url("/img/home.png");
+	-fx-background-size: 100% 100%;
+	-fx-background-color: Transparent;
+}
+
+.toggleButton {
+	 -fx-padding: 5 22 5 22;   
+    -fx-border-color: #e2e2e2;
+	  	 
+}
+
+.tabPane {
+	-fx-background-color : #9FB1C3;
+}
+
+.textField {
+	-fx-background-color : #849AB0;
+	-fx-border-color: #FEFEFE;
+	-fx-font-color: #FEFEFE; 
+}
+
+.pane {
+	-fx-background-color : #849AB0;
+}

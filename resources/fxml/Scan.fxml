@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="426.0" prefWidth="289.0" styleClass="pane" stylesheets="@../css/style1.css" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="fr.ensim.app.controller.ScanController">
+   <children>
+      <VBox layoutX="-8.0" layoutY="-1.0" prefHeight="426.0" prefWidth="308.0">
+         <children>
+            <Pane prefHeight="241.0" prefWidth="308.0">
+               <children>
+                  <ImageView fx:id="img_scan" fitHeight="167.0" fitWidth="201.0" layoutX="54.0" layoutY="47.0" pickOnBounds="true" preserveRatio="true" />
+               </children>
+            </Pane>
+            <Pane prefHeight="190.0" prefWidth="308.0">
+               <children>
+                  <TextField fx:id="tex_code_barre" layoutX="80.0" layoutY="42.0" promptText="Code barre" styleClass="textField" />
+                  <Button fx:id="btn_valider" layoutX="129.0" layoutY="94.0" mnemonicParsing="false" onAction="#valider_code_on_action" text="Button" />
+               </children>
+            </Pane>
+         </children>
+      </VBox>
+   </children>
+</Pane>
