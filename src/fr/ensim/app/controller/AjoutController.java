@@ -22,11 +22,8 @@ import javafx.scene.image.Image;
 import javafx.scene.image.ImageView;
 import javafx.stage.Stage;
 
-public class HomeController implements Initializable {
+public class AjoutController implements Initializable {
 
-	//Declaration des objets de ta scene
-	//La liste est déclarée sous scene builder grâce aux fx_id
-	//Voir Document/Controller sous scene builder
 
 	@FXML
 	private ImageView img_concurrence1;
@@ -141,7 +138,7 @@ public class HomeController implements Initializable {
 			alert.showAndWait();
 		}
 		else {
-			//Code Exemple, A toi de jouer :)
+			
 			System.out.println("Objet Ajouté !");
 			System.out.println("Nom : " + text_titre.getText());
 			Main.setTitre(text_titre.getText());
